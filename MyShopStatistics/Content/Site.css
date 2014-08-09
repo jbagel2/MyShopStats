@@ -1,0 +1,221 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer {
+    width: 98%;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+#{
+	margin:0px auto;
+	padding:0px;
+	font-family:verdana;
+	
+
+}
+
+header{
+	margin:50px auto;
+	width:1000px;
+	height:100px;
+}
+
+div.container{
+	width:200px;
+	height:200px;
+	float:left;
+	margin:-50px auto;
+	-webkit-transition: height .4s;
+}
+
+div#shop_statistics{
+	background-color: #E44424;
+	
+}
+
+div#tech_statistics{
+	background-color: #67BCDB;
+}
+div#goals{
+	background-color: #31B404;
+}
+div#input_data{
+	background-color: #FF9009;
+}
+
+div#set-up{
+	background-color: #0B0B61;
+}
+
+img.icon{
+	display:block;
+	margin: 50px auto;
+	background-color: rgba(255,255,255,.15);
+	width:40px;
+	padding:28px;
+	-webkit-border-radius:50%;
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition: box-shadow 1s;
+
+}
+
+p.text{
+	font-size: 1.2em;
+	color:white;
+	text-align:center;
+	padding-top:10px;
+	opacity:.6;
+	-webkit-transition: padding-top .4s;
+}
+
+div.container:hover{
+	height:250px;
+	opacity:1;
+}
+
+div.container:hover p.text{
+	padding-top:30px;
+
+}
+
+div.container:hover img.icon{
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(255,255,255,.6);
+}
+
+
+div#six{
+
+background-color: rgb(255,255,255);
+width:1000px;
+height:600px;
+margin:0px auto;
+border: 1px solid;
+box-shadow: 10px 10px 5px #1C1C1C;
+text-align:center;
+
+}
+
+#monthly_sales {
+width:300px; 
+height:240px;
+display:linear-block;
+margin: 50px auto;
+}
+
+#daily_sales{
+width:200px; 
+height:160px;
+display:linear-block;
+margin: -10px auto;
+
+}
+
+#car_count{
+width:200px; 
+height:160px;
+display:linear-block;
+margin: -150px 50px;
+
+}
+
+#efficiency{
+width:200px; 
+height:160px;
+display:linear-block;
+margin: -150px 750px;
+}
+
+#labor_totals{
+width:250px; 
+height:200px;
+display:linear-block;
+margin: -500px 720px;
+}
+
+#parts_totals{
+width:250px; 
+height:200px;
+display:linear-block;
+margin: 300px 25px;
+}
+
+#invoiceForm{
+
+width:500px;
+height:450px;
+background-color:#FAFAFA;
+border-color:#BDBDBD;
+border: 1px solid;
+border-radius: 25px;
+text-align:left;
+margin: 0px auto;
+box-shadow: 10px 10px 5px #888888;
+}
+
+a{
+text-decoration: none;
+
+}
+
+
+
+
+#avg_ro {
+width:300px; 
+height:240px;
+display:linear-block;
+margin: 50px auto;
+}
+
+#comebacks{
+width:200px; 
+height:160px;
+display:linear-block;
+margin: -10px auto;
+
+}
+
+#parts_avg{
+width:250px; 
+height:200px;
+display:linear-block;
+margin: 300px 25px;
+}
+
+#labor_avg{
+width:250px; 
+height:200px;
+display:linear-block;
+margin: -500px 720px;
+}
+
+#labor_hrs{
+width:200px; 
+height:160px;
+display:linear-block;
+margin: -150px 50px;
+
+}
+
+#check_sheets{
+width:200px; 
+height:160px;
+display:linear-block;
+margin: -150px 750px;
+}
+
+

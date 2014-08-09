@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title - My Shop</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <head>
+
+    <body>
+        <header>
+            
+                <a href="/shopStatsHome.html">
+                    <div class="container" id="shop_statistics">
+                        <img class="icon" src="~/Content/images/shopIcon.png">
+                        <p class="text">Shop Statistics</p>
+                    </div>
+                </a>
+
+                <div class="container" id="tech_statistics">
+                    <img class="icon" src="~/Content/images/techsIcon.png">
+                    <p class="text">Tech Statistics</p>
+                </div>
+
+                <div class="container" id="goals">
+                    <img class="icon" src="~/Content/images/goalIcon.png">
+                    <p class="text">Goals</p>
+                </div>
+
+                <a href="/inputData.html">
+                    <div class="container" id="input_data">
+                        <img class="icon" src="~/Content/images/inputDataIcon.png">
+                        <p class="text">Input Data</p>
+                    </div>
+                </a>
+
+                <div class="container" id="set-up">
+                    <img class="icon" src="~/Content/images/settingsIcon.png">
+                    <p class="text">Set-up</p>
+                </div>
+              
+
+</header>
+        <div class="container body-content">
+            
+            @RenderBody()
+            
+        </div>
+        <div id="copyright"><p>&copy; @DateTime.Now.Year - MyShopStatistics.com</p></div>
+        <footer>
+            
+            <div class="navbar navbar-inverse navbar-fixed-bottom ">
+                <div class="containerBoot">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar">test</span>
+                            <span class="icon-bar">testagain</span>
+                            <span class="icon-bar">test3</span>
+                        </button>
+
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li> @Html.ActionLink("MyShopStatistics.com", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })</li>
+                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li>@Html.ActionLink("MyShop", "Home", "MyShop")</li>
+                            <li>@Html.ActionLink("About", "About", "Home")</li>
+                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        </ul>
+                        @Html.Partial("_LoginPartial")
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+    </body>
+</html>
